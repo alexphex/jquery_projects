@@ -1,0 +1,16 @@
+.tabs__name{
+   display: flex;
+   padding: 0 15px;
+}
+.tabs__item{
+   margin: 0 15px;
+   list-style: none;
+   cursor: pointer;
+}
+.tabs__content {
+   display: none; /* по умолчанию прячем все блоки */
+   
+}
+.tabs__content.active {
+   display: block; /* по умолчанию показываем нужный блок */
+}
