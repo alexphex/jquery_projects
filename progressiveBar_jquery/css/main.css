@@ -1,0 +1,42 @@
+*, html,body{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+::selection{
+	background-color:#2d98da;
+	color:#fff;
+}
+body{
+	background-color:#bdc1c4;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	min-height:50vh;
+}
+.bar{
+	position:relative;
+	text-align:center;
+}
+.loading{
+	position:relative;
+	width:500px;
+	height:22px;
+	background:rgba(255,255,255,.05);
+	border-radius:25px;
+	display:flex;
+	align-items:center;
+	border:2px solid #1b1f23;
+}
+.loading span{
+	position:absolute;
+	width:0%;
+	height:100%;
+	background-color: tomato;
+	border-radius:25px;
+}
+.bar i{
+	color:#fff;
+	font-size:5em;
+}
